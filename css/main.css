@@ -56,3 +56,9 @@ html,body {
   overflow-x: hidden;
   width: 100%;
 }
+
+/* UTILITY CLASSES */
+
+.nowrap {
+  white-space: nowrap;
+}
