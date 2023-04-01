@@ -14,6 +14,7 @@
     <meta name="HandheldFriendly" content="true">
     <title>NFT-SPACE | Login</title>
     <link rel="stylesheet" href="css/theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body class="d-flex h-100 w-100 bg-black text-white" data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -35,20 +36,21 @@
               </a>
             </header>
             <main class="mb-auto col-12">
-              <h1>SIGN-IN</h1>
+              <h1>Sign in</h1>
 <form class="row">
   <div class="col-12">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email Address</label>
+    <label for="exampleInputEmail1" class="form-label">Email or Username</label>
     <input type="email" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" class="form-control form-control-lg bg-gray-800 border-dark" id="exampleInputPassword1">
+    <div id="passHelp" class="form-text">
+      <a href="#">Forgot your password?</a>
+    </div>
   </div>
-  
-  <button type="submit" class="btn btn-white btn-xl mb-4">Submit</button>
+  <button type="submit" class="btn btn-white btn-xl mb-4">Login</button>
+  <p class="form-text">Don't have an account? <a href="/register.html">Sign up</a></p>
 </div>
 </form>
 

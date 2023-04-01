@@ -57,6 +57,16 @@ html,body {
   width: 100%;
 }
 
+a {
+  color: #03a9f4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03a9f4;
+  text-decoration: underline;
+}
+
 /* UTILITY CLASSES */
 
 .nowrap {
