@@ -57,12 +57,12 @@ html,body {
   width: 100%;
 }
 
-a .redirect {
+.redirect {
   color: #03a9f4;
   text-decoration: none;
 }
 
-a .redirect:hover {
+.redirect:hover {
   color: #03a9f4;
   text-decoration: underline;
 }
