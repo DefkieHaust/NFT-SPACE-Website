@@ -62,3 +62,8 @@ html,body {
 .nowrap {
   white-space: nowrap;
 }
+
+.p2row {
+  height: 3.8rem;
+  overflow-y: hidden;
+}
