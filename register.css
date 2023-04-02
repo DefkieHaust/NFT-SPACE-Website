@@ -1,18 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-image:  url('https://images.unsplash.com/photo-1432839318976-b5c5785ce43f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80') ;
+
+body {
+    height: 100vh;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
     background-size: cover;
+    overflow-y: hidden;
 }
 
-.container{
+.container {
     margin-top: 260px;
 }
-.content{
+
+.content {
     line-height: 38px;
 }
-p{
+
+p {
     font-size: 18px;
+}
+
+.col-md-5 {
+    padding: 20px 30px;
+    box-shadow: -1px 0.5px 60px 6px black;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
